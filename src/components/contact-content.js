@@ -6,6 +6,7 @@ import Icon from "../components/header/navigation/icon"
 import InstagramIcon from "../images/instagram-icon"
 import VkIcon from "../images/vkIcon.svg"
 import Phone from "../images/phone.svg"
+import PhoneViber from "../images/viber.svg"
 
 const TermsContainer = styled.div`
   padding-top: 80px;
@@ -70,7 +71,7 @@ const ContactContent = () => {
           </p>
           <p>
             <a
-              href="https://www.instagram.com/mergen_samurai/"
+              href="https://vk.com/samuraidancer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -81,20 +82,31 @@ const ContactContent = () => {
             </a>
           </p>
           <p>
-            <a
-              href="https://www.instagram.com/mergen_samurai/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a target="_blank" rel="noopener noreferrer">
               <Icon>
                 <img
                   src={Phone}
-                  alt="Иконка сотового телефона"
+                  alt="Иконка сотового телефона воцап"
                   width="100%"
                   height="100%"
                 />
               </Icon>
-              <a href="tel:+79615467430">+7 (961) 546-74-30</a>
+              WhatsApp
+              <a href="tel:+79275942810">+7 (927) 594-28-10</a>
+            </a>
+          </p>
+          <p>
+            <a target="_blank" rel="noopener noreferrer">
+              <Icon>
+                <img
+                  src={PhoneViber}
+                  alt="Иконка сотового телефона вайбер"
+                  width="100%"
+                  height="100%"
+                />
+              </Icon>
+              Viber
+              <a href="tel:+79613982810">+7 (961) 398-28-10</a>
             </a>
           </p>
         </Container>

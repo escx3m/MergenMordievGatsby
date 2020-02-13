@@ -51,8 +51,18 @@ const PriceContent = () => {
       <h1 className="visually-hidden">Тарифы и условия</h1>
       <Section>
         <Container>
-          <h2>Тарифы</h2>
-          <p>asdasdasdasdasdasdaskdjasjdaksjdlkasjdkjaskldjk</p>
+          <h2>Свадьба</h2>
+          <p>1 час - 3 000 рублей</p>
+          <p>Целый день - 20 000 рублей</p>
+          <h2>Love Story</h2>
+          <p>1 час - 2 000 рублей</p>
+          <p>Целый день - 10 000 рублей</p>
+          <h2>Праздник, день рождение</h2>
+          <p>1 час - 2 500 рублей</p>
+          <p>Целый день - 15 000 рублей</p>
+          <h2>Семейная фотосессия</h2>
+          <p>1 час - 2 000 рублей</p>
+          <p>Целый день - 10 000 рублей</p>
         </Container>
       </Section>
     </TermsContainer>

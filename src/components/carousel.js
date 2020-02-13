@@ -41,7 +41,7 @@ const Carousel = () => {
       clickable: true,
     },
     autoplay: {
-      delay: 3000,
+      delay: 2000,
       disableOnInteraction: false,
     },
     spaceBetween: 0,

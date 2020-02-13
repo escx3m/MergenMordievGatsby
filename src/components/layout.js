@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <Header />
       <main>{children}</main>
       {/* <main>sdsd</main> */}
-      <Footer />
+      {/* <Footer /> */}
       {/* <Modal isShown={false}>
         <SignUpForm />
         <AuthForm />
