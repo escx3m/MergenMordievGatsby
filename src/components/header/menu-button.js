@@ -22,7 +22,7 @@ const StyledButton = styled.button`
     display: block;
     width: 50%;
     height: 2px;
-    background: var(--accent);
+    background: var(--black);
     transform: translate(-50%, -50%);
     transition: transform 0.2s, opacity 0.2s;
   }
@@ -48,7 +48,7 @@ const StyledButton = styled.button`
   &:hover,
   &:focus {
     span {
-      background: var(--accent-light);
+      background: var(--light-grey);
     }
   }
 
