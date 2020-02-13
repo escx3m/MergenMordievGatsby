@@ -28,14 +28,7 @@ const data = [
 ]
 
 const slides = data.map((item, index) => (
-  <Slide
-    // titleText={item.title}
-    // description={item.description}
-    // button={item.button}
-    imageSrc={item.src}
-    imageAlt={item.alt}
-    key={index}
-  />
+  <Slide imageSrc={item.src} imageAlt={item.alt} key={index} />
 ))
 
 const Carousel = () => {

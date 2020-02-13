@@ -56,23 +56,6 @@ const MadeIn = styled.div`
   }
 `
 
-const Icon = styled.span`
-  display: inline-flex;
-  width: 1.2em;
-  height: 1.2em;
-  font-size: 1.3em;
-  user-select: none;
-
-  svg {
-    fill: currentColor;
-  }
-`
-
-const Oxilogo = styled(Icon)`
-  width: 4.2em;
-  height: 1em;
-`
-
 const Footer = () => {
   return (
     <FooterBox>
@@ -80,26 +63,7 @@ const Footer = () => {
         <MadeIn>
           <p>
             <span>powered by Fedor D. </span>
-            {/* <Oxilogo
-              as="a"
-              href="http://oxitech.ru/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={OxiIcon}
-                width="100%"
-                height="100%"
-                alt="Логотип компании Oxitech"
-              />
-            </Oxilogo> */}
           </p>
-          {/* <p>
-            <span>Сделано в Калмыкии </span>
-            <Icon>
-              <LotusIcon width="100%" height="100%" />
-            </Icon>
-          </p> */}
         </MadeIn>
       </FooterContainer>
     </FooterBox>

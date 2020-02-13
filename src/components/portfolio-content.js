@@ -80,17 +80,6 @@ const AboutImg = styled.div`
   }
 `
 
-const MapBox = styled.span`
-  grid-area: map-img;
-  display: block;
-  > img {
-    line-height: 0;
-    &:not(:last-child) {
-      margin-bottom: 1em;
-    }
-  }
-`
-
 const PortfolioContent = () => {
   return (
     <AboutBox>
