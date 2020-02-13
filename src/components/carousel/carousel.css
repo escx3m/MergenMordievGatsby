@@ -1,0 +1,27 @@
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 16px;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  transform: scale(1);
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background: var(--light-grey);
+  opacity: 1;
+  transition: background 0.5s;
+}
+
+.swiper-pagination-bullet:focus {
+  outline: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--light-yellow);
+}
